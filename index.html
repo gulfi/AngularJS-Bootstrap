@@ -15,7 +15,12 @@
          	<p>Name : <input type="text" ng-model="name"></p>
           <h1>Hello {{name}}</h1>  
         </div>
-      </div>   
+      </div>  
+      <div class="row">
+        <div class="col-md-12" ng-init="firstName='Mursu'">
+         	<p>My name is  <span ng-bind="firstName"></span> </p>
+        </div>
+      </div> 
     </div>
   </body>
 
